@@ -1,0 +1,8 @@
+{
+    "FunctionName": "test_lambda_invoke", 
+    "StatementId": "1", 
+    "Action": "lambda:InvokeFunction", 
+    "Principal": "codecommit.amazonaws.com", 
+    "SourceArn": "arn:aws:codecommit:eu-central-1:169372736247:test_repository",
+    "SourceAccount": "169372736247"
+}

@@ -1,0 +1,16 @@
+{
+    "repositoryName": "test_repository",
+    "triggers": [
+        {
+            "name": "test_lambda_invoke_func_trigger",
+            "destinationArn": "arn:aws:lambda:eu-central-1:169372736247:function:test_lambda_invoke",
+            "customData": "",
+            "branches": [
+                "master", "develop"
+            ],
+            "events": [
+                "updateReference"
+            ]
+        }
+    ]
+}
