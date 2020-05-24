@@ -1,7 +1,6 @@
 #!/bin/bash
 
-main()
-{
+main() {
     local env_dir="$HOME/Documents/Environment"
     local rotation_files=".tmux.conf .bash_profile .zshrc .vimrc .local .ssh .aws"
 
