@@ -1,7 +1,7 @@
 #!/bin/bash
 
 main() {
-    local env_dir="$HOME/Documents/Environment"
+    local env_dir="$HOME/Documents/env"
     local rotation_files=".tmux.conf .bash_profile .zshrc .vimrc .local .ssh .aws"
 
     local firefox_profile_home="$HOME/Library/Application Support/Firefox/Profiles"

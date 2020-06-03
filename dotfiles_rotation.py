@@ -14,7 +14,7 @@ def dotfile_rotation(*args):
     :return: Exit status
     """
     home = os.environ['HOME']
-    #storage = f"{home}/Documents/Environment/dotfiles"
+    #storage = f"{home}/Documents/env/dotfiles"
 
     for dotfile in args:
         if os.path.isdir(f"{home}/{dotfile}"):
