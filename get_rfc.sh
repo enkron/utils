@@ -4,7 +4,8 @@ print_usage() {
     read -r -d '' help_msg <<- EOF
     Usage: $0 -n <RFC number>
 
-    Save given RFC doc to the file
+    The script fetches document from tools.ietf.org and saves given RFC
+    to the file
 
     Options:
     -n      Saves given RFC document to the target file
