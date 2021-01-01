@@ -4,8 +4,16 @@
 env_dir="${HOME}/Documents/env"
 platform=`uname`
 
-declare -a rotation_files=(".tmux.conf" ".bash_profile" ".zshrc"
-    ".vimrc" ".local" ".ssh" ".aws" ".alacritty.yml"
+declare -a rotation_files=(
+    '.tmux.conf'
+    '.bash_profile'
+    '.zshrc'
+    '.vimrc'
+    '.local'
+    '.ssh'
+    '.aws'
+    '.alacritty.yml'
+    '.gitconfig'
 )
 
 firefox_profile_home="${HOME}/Library/Application Support/Firefox/Profiles"
