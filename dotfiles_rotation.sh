@@ -33,7 +33,8 @@ main() {
 
     pip3 freeze >"${env_dir}/pip3/requirements.txt"
 
-    cd "${env_dir}" && git commit -am "[${0}] files has been rotated." && git push
+    cd "${env_dir}"
+    git add . && git commit -m "[${0}] files has been rotated." && git push
 }
 
 
